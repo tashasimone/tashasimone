@@ -3,19 +3,27 @@
 <div class="row">
     <div class="col-md-9">
         <div class="row">
-            
-          {% for category in site.categories %}
+
+            {% for category in site.categories %}
+
+            {% if category[0] == page.type %}
             {% for post in category[1] %}
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="{{post.img}}" alt="Card image cap" width="150">
+            <div class="card"
+                 style="width: 18rem;">
+                <img class="card-img-top"
+                     src="{{post.img}}"
+                     alt="Card image cap"
+                     width="150">
                 <div class="card-body">
                     <h5 class="card-title">{{post.title}}</h5>
                     <p class="card-text">{{post.preview}}</p>
-                    <a href="{{post.url}}" class="btn btn-primary">read post</a>
+                    <a href="{{post.url}}"
+                       class="btn btn-primary">read post</a>
                 </div>
             </div>
-          {% endfor %}
-          {% endfor %}            
+            {% endfor %}
+            {% endif %}
+            {% endfor %}
         </div>
     </div>
     <div class="col-md-3">
