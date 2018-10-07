@@ -12,4 +12,4 @@ i'm a california girl living in a lonely world. my ideas of fun include naps and
 
 my passion for good design and user interaction stems from teaching my grandma how to use her computer. i recognized that each person interacts with technology in their own way, but that good design can prevent frustration. beyond interactive design, i am passionate about typography, and can spend hours on typekit appreciating typefaces and theorizing about projects they would complete.
 
-![portrait](/assets/tasha-simone-portrait.jpg)
+<img src="/assets/tasha-simone-portrait.jpg" alt="tasha simone" width="200"/>
