@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: [interactive, graphic]
+categories: [interactive]
 title:  "brittany ann ross website"
 preview: In the summer of 2018 I was asked to redesign...
 img: /assets/BAR/mockup.jpg

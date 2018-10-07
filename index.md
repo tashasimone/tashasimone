@@ -3,10 +3,10 @@ layout: home
 ---
 
 
-# tasha simone
+## tasha simone
 creativity and color
 
-## about
+### about
 
 i'm a california girl living in a lonely world. my ideas of fun include naps and hikes, netflix binges and bike rides, taco bell runs and making vegan food. i started my designer journey at the age of 10, making forum signature banners in picnik and gimp, and thinking my garish use of blending modes was the height of graphic design. i have since dabbled in computer science, dyed my hair 47 times, and completed a triathlon. 
 
