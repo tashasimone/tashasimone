@@ -8,12 +8,11 @@
 
             {% if category[0] == page.type %}
             {% for post in category[1] %}
-            <div class="card"
-                 style="width: 18rem;">
-                <img class="card-img-top"
+            <div class="card">
+                 <div class="card-img-cont"><img class="card-img-top"
                      src="{{post.img}}"
-                     alt="Card image cap"
-                     width="150">
+                     alt="Card image cap">
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">{{post.title}}</h5>
                     <p class="card-text">{{post.preview}}</p>

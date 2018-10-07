@@ -5,7 +5,6 @@ title:  "garamond typeface poster"
 preview: When I started as a design student, I found that...
 img: /assets/GARAMOND/mockup.png
 ---
-# Garamond Typeface Poster
 
 <img src="/assets/GARAMOND/mockup.png" alt="website mockup" width="1200"/>
 
