@@ -3,7 +3,7 @@ layout: post
 categories: [graphic]
 title:  "YFC trifold brochure"
 preview: One of my favorite challenges in design is creating...
-img: assets/YFC/cover-1.jpg
+img: /assets/YFC/cover-1.jpg
 ---
 
 <img src="{{site.baseurl}}/assets/YFC/cover-1.jpg" alt="trifold brochure" width="1200"/>

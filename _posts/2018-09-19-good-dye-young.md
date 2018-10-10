@@ -3,7 +3,7 @@ layout: post
 categories: [interactive]
 title:  "goodDYEyoung redesign"
 preview: Since 6th grade, I've been passionate about two things...
-img: assets/GDY/mockup.jpg
+img: /assets/GDY/mockup.jpg
 ---
 
 <img src="{{site.baseurl}}/assets/GDY/mockup.jpg" alt="website mockup" width="1200"/>

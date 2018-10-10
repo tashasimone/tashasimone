@@ -3,7 +3,7 @@ layout: post
 categories: [graphic]
 title:  "noughts and crosses book cover"
 preview: I was always told to not judge a book by its cover, but...
-img: assets/NAC/mockup.png
+img: /assets/NAC/mockup.png
 ---
 
 <img src="{{site.baseurl}}/assets/NAC/mockup.png" alt="book cover" width="1200"/>

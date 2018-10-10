@@ -3,7 +3,7 @@ layout: post
 categories: [graphic]
 title:  "garamond typeface poster"
 preview: When I started as a design student, I found that...
-img: assets/GARAMOND/mockup.png
+img: /assets/GARAMOND/mockup.png
 ---
 
 <img src="{{site.baseurl}}/assets/GARAMOND/mockup.png" alt="website mockup" width="1200"/>

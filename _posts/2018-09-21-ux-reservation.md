@@ -3,7 +3,7 @@ layout: post
 categories: [interactive, graphic]
 title:  "room reservation system ux redesign"
 preview: When I come across a poorly designed website, especially one...
-img: assets/UXR/cover.jpg
+img: /assets/UXR/cover.jpg
 ---
 
 <img src="{{site.baseurl}}/assets/UXR/cover.jpg" alt="booklet" width="1200"/>

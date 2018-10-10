@@ -3,7 +3,7 @@ layout: post
 categories: [interactive]
 title:  "wear blue campaign website"
 preview: Since my sophomore year of high school I have been aware...
-img: assets/WBC/mockup.jpg
+img: /assets/WBC/mockup.jpg
 ---
 
 <img src="{{site.baseurl}}/assets/WBC/mockup.jpg" alt="website mockup" width="1200"/>

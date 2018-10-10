@@ -3,7 +3,7 @@ layout: post
 categories: [graphic]
 title:  "hair color how to manual"
 preview: Being a design student is wonderful because when you...
-img: assets/HCHT/cover-stand.jpg
+img: /assets/HCHT/cover-stand.jpg
 ---
 
 <img src="{{site.baseurl}}/assets/HCHT/cover-stand.jpg" alt="booklet" width="1200"/>

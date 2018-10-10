@@ -3,7 +3,7 @@ layout: post
 categories: [interactive]
 title:  "brittany ann ross website"
 preview: In the summer of 2018 I was asked to redesign...
-img: assets/BAR/mockup.jpg
+img: /assets/BAR/mockup.jpg
 ---
 
 <img src="{{site.baseurl}}/assets/BAR/mockup.jpg" alt="website mockup" width="1200"/>

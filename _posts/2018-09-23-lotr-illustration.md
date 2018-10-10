@@ -3,7 +3,7 @@ layout: post
 categories: [graphic]
 title:  "storytelling illustration"
 preview: Everyone loves a good story, and for many people...
-img: assets/LOTR/full-1.jpg
+img: /assets/LOTR/full-1.jpg
 ---
 
 <img src="{{site.baseurl}}/assets/LOTR/full-1.jpg" alt="poster" width="1200"/>
