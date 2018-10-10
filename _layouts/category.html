@@ -9,6 +9,7 @@
             {% if category[0] == page.type %}
             {% for post in category[1] %}
             <div class="card">
+                <a href="{{post.url}}">
                  <div class="card-img-cont"><img class="card-img-top"
                      src="{{post.img}}"
                      alt="Card image cap">
@@ -19,6 +20,7 @@
                     <a href="{{post.url}}"
                        class="btn btn-primary">read post</a>
                 </div>
+                </a>
             </div>
             {% endfor %}
             {% endif %}

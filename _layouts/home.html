@@ -5,6 +5,7 @@
         <div class="row">
             {% for post in site.posts %}
             <div class="card">
+                <a href="{{post.url}}">
                 <div class="card-img-cont"><img class="card-img-top"
                          src="{{post.img}}"
                          alt="Card image cap">
@@ -15,6 +16,7 @@
                     <a href="{{post.url}}"
                        class="btn btn-primary">read post</a>
                 </div>
+                </a>
             </div>
             {% endfor %}
         </div>
