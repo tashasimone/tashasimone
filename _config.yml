@@ -28,6 +28,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+permalink: /:title/
 
 # Sass setup
 sass:
