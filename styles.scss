@@ -23,7 +23,7 @@ body {
         .card-img-overlay{
             display: block;
             color: #E7EAEF;
-            background-color: rgba(61,64,69,0.5);
+            background-color: rgba(61,64,69,0.75);
             padding: 20px;
             margin: 0;
             height: 100%;
@@ -34,6 +34,10 @@ body {
 .card-img-overlay {
     visibility: hidden;
     transition: visibility 0s linear;
+}
+.detail-head {
+    margin: 35px auto 0px auto;
+    max-width: 79%;
 }
 footer {
     margin: 20px auto;
@@ -53,6 +57,7 @@ nav {
     padding: 15px;
     .nav-item {
         font-size: 2.4rem;
+        margin: 0 20px;
     }
 }
 .post-imgs {
