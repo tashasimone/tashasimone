@@ -55,6 +55,16 @@ nav {
         font-size: 2.4rem;
     }
 }
+.post-imgs {
+    max-width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: row wrap;
+    .card {
+        width: 31%;
+        margin: 7px;
+    }
+}
 
 // @include media-breakpoint-up(sm) { ... }
 // @include media-breakpoint-up(md) { ... }
