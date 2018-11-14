@@ -10,24 +10,56 @@ body {
     font-family: Montserrat, sans-serif;
 }
 .card {
-    width: 33%;
-    img {
-        height: 100%;
+    &:hover img{
+        filter: none;
     }
+
+    img {
+        height: 150%;
+        width: 180%;
+        margin: -25% -35%;
+        filter: grayscale(100%);
+        transition: all 0.2s ease-in;
+        &.detail {
+            margin: 0 auto;
+            width: 100%;
+            height: auto;
+            filter: none;
+        }
+    }
+}
+.card-img {
+    height: 150%;
+    width: 200%;
+    margin: -25% -50%;
 }
 .card-img-cont {
     overflow: hidden;
+    height: auto;
+    width: 33%;
     &:hover {
         padding-top: 0px;
         transition: padding-top 0.7s ease;
         .card-img-overlay{
             display: block;
             color: #E7EAEF;
-            background-color: rgba(61,64,69,0.75);
+            @include random-color();
             padding: 20px;
             margin: 0;
             height: 100%;
-            visibility: visible;
+            visibility: visible;            
+        }
+        .one {
+            background-color: rgba(map-get($colors, 1), $alpha: 0.75)
+        }
+        .two {
+            background-color: rgba(map-get($colors, 2), $alpha: 0.75)
+        }
+        .three {
+            background-color: rgba(map-get($colors, 3), $alpha: 0.75)
+        }
+        .four {
+            background-color: rgba(map-get($colors, 4), $alpha: 0.75)
         }
     }
 }
@@ -40,8 +72,12 @@ body {
     max-width: 79%;
 }
 footer {
-    margin: 20px auto;
+    margin: 80px auto 40px auto;
 }
+h1.one { color: map-get($colors, 1); }
+h1.two { color: map-get($colors, 2); }
+h1.three { color: map-get($colors, 3); }
+h1.four { color: map-get($colors, 4); }
 html {
     font-size: 62.5%;
 }
@@ -54,10 +90,10 @@ i {
     margin: 0 20px;
 }
 nav {
-    padding: 15px;
+    padding: 30px;
     .nav-item {
         font-size: 2.4rem;
-        margin: 0 20px;
+        margin: 0 60px;
     }
 }
 .post-imgs {

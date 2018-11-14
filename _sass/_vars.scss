@@ -1,1 +1,15 @@
 $primary-color: blue;
+$color-1: #FF00AA;
+$color-2: #FFAA01;
+$color-3: #00AAFF;
+$color-4: #AA00FF; 
+$colors:(
+    1: #FF00AA, 
+    2: #FFAA01, 
+    3: #00AAFF,
+    4: #AA00FF);
+
+@mixin random-color() {
+    $value: random(4);
+    background-color: rgba(map-get($colors, $value), $alpha: 0.75);
+  }

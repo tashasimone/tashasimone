@@ -7,10 +7,10 @@
     {% if category[0] == page.type %}
     {% for post in category[1] %}
     <div class="card bg-dark text-white card-img-cont">
-        <img class="card-img img-fluid"
+        <img class="card-img"
              src="{{site.baseurl}}{{post.img}}"
              alt="Card image cap">
-        <div class="card-img-overlay">
+        <div class="card-img-overlay  {{post.color}}">
             <h4 class="card-title">{{post.title}}</h4>
             <p class="card-text">{{post.preview}}</p>
             <a href="{{site.baseurl}}{{post.url}}"
